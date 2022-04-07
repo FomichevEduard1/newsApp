@@ -89,10 +89,9 @@ form.addEventListener('submit', (e) => {
 //  init selects
 document.addEventListener('DOMContentLoaded', function() {
 
-  M.AutoInit();//после загрузки дом элементов вызывается для инициализации плагинов materialize
+  M.AutoInit();
   loadNews();
 });
-
 
 //load news function
 function loadNews() {
